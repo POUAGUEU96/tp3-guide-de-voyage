@@ -1,0 +1,87 @@
+
+/* Structure général */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+  /* header */
+header {
+  width: 100%;
+  background: #29395bfc;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+ /* Logo */
+.logo {
+    background: white;
+    width: 25%;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+
+.icon {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+
+/* Losange vert */
+.diamond {
+    width: 100px;
+    height: 100px;
+    background-color: #a6d600;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: rotate(45deg);
+}
+
+/* Avion */
+.plane {
+    position: absolute;
+    font-size: 50px;
+    color: #2f6df6;
+    top: 30px;
+    left: 35px;
+    transform: rotate(-20deg);
+}
+
+/* Texte principal */
+h1 {
+    color: #2f6df6;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+/* Sous-titre */
+p {
+    color: #a6d600;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+/* Navigation principale */
+.principale ul{
+    display: flex;
+}
+.principale li{
+    display: inline-block;
+    margin-right: 20px
+}
