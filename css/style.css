@@ -99,8 +99,12 @@ p {
 /* Mise en page accueil */
 
 .acceuil{
-  background-image: url(../images/img_accueil.jpg);
+    height: 800px;
+  background-image: url(../images/img-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   /*--SourceImage: https://fr.freepik.com/photos-vecteurs-libre/voyage-canada/4#uuid=d39b88e0-e1c1-4a85-9ed6-573fbb032d2b--*/
-  background-attachment: fixed; 
+  /* background-attachment: fixed;  */
 }
   
