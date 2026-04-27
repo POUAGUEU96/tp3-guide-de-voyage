@@ -18,11 +18,11 @@ body {
 
   /* header */
 header {
-  width: 100%;
-  background: #29395bfc;
+  background: #6c9cda;
   display: flex;
-  justify-content: space-around;
-  padding: 20px;
+  align-items: center;      
+  justify-content: space-between;
+  
 }
 
  /* Logo */
@@ -85,3 +85,22 @@ p {
     display: inline-block;
     margin-right: 20px
 }
+.principale a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.cacher{
+    color: white;
+}
+
+
+/* Mise en page accueil */
+
+.acceuil{
+  background-image: url(../images/img_accueil.jpg);
+  /*--SourceImage: https://fr.freepik.com/photos-vecteurs-libre/voyage-canada/4#uuid=d39b88e0-e1c1-4a85-9ed6-573fbb032d2b--*/
+  background-attachment: fixed; 
+}
+  
