@@ -8,6 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     
+    
 }
 
 .container {
@@ -24,7 +25,7 @@ header {
 
  /* Logo */
 
- .navigation{
+ .conteneur-flex{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,7 +80,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   /*--SourceImage: https://fr.freepik.com/photos-vecteurs-libre/voyage-canada/4#uuid=d39b88e0-e1c1-4a85-9ed6-573fbb032d2b--*/
-  /* background-attachment: fixed;  */
+  background-attachment: fixed; 
 }
 .aspect{
   margin-top: 0;
@@ -131,9 +132,6 @@ p {
   align-items: center;
   font-weight: bold;
   font-size: 1rem;
-
-  
- 
 }
 
 .bout_acceil a{
@@ -144,4 +142,17 @@ p {
   padding: 10px 20px 20px 10px;
   color: white;
   
+}
+.description p{
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+  line-height: 1.4rem;
+  margin-bottom: 40px;
+
+}
+.rid-container{
+  display: grid;
+  grid-template-columns: repeat(5fr);
+  grid-template-rows: repeat(3fr);
 }
