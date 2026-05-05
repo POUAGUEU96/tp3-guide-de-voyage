@@ -74,7 +74,7 @@ p {
 /* Mise en page accueil */
 
 .acceuil{
-    height: 400px;
+  height: 400px;
   background-image: url(../images/img-acceuil-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -126,7 +126,7 @@ p {
   align-items: center;
 }
 
-.bout_acceil{
+.bout-vers-planification{
   font-family: Arial;
   text-align: center;
   align-items: center;
@@ -134,7 +134,7 @@ p {
   font-size: 1rem;
 }
 
-.bout_acceil a{
+.bout-vers-planification a{
   text-decoration: none;
   border: 2px solid;
   background-color: #E0A654;
@@ -161,6 +161,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   list-style: none;
+  margin-top: 40px;
 }
 
 .grid-5-col img{
@@ -203,3 +204,67 @@ p {
 }
 
 
+/* footer */
+.container-texte{
+  text-align: center;
+  color: #F9F2F3;
+  background-color: #2B3346;
+  margin-top: 50px;
+  padding: 50px;
+  padding-bottom: 20px;
+ 
+}
+
+.container-texte p{
+  align-items: center;
+}
+
+/* Mise en page circuit-touristique */
+
+.logo a {
+    color: #E0A654;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.part1{
+    color: #F9F2F3;
+}
+
+/* Sous-titre */
+p{
+    color: #B1ADC6;
+    font-size: 1rem;
+    padding-top: 0;
+}
+
+.acceuil-Circuit{
+  height: 400px;
+  background-image: url(../images/LR-Destination-canada.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* /*--SourceImage: https://www.voyageursdumonde.ca/voyage-sur-mesure/voyages/guide-voyage/canada/quand-partir */
+  background-attachment: fixed; 
+}
+
+/* Fil d'Ariane */
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-bottom: 0px;
+  margin: 20px;
+  font-size: 0.9em;
+}
+
+.breadcrumb li+li::before {
+  content: ">";
+  margin: 0 8px;
+  color: #555;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #E0A654;
+}
