@@ -47,7 +47,74 @@
                 <li>Canada</li>
             </ul>
         </nav>  
-        
+        <form action="confirmation.html" method="post" class="flex-cotes">
+            <div class="larg-50">
+				<fieldset>
+					<legend>Informations personnelles</legend>
+
+					<div class="marg-bas">
+						<label for="nom">Nom</label>
+						<input type="text" name="nom-personnel" id="nom" class="champ-large"required>	
+					</div>
+                    <div class="marg-bas">
+						<label for="prenom">prenom</label>
+						<input type="text" name="prenom" id="prenom" class="champ-large"required>	
+					</div>
+                    <div class="marg-bas">
+						<label for="mail-personnel">Votre courriel</label>
+						<input type="email" name="mail-personnel" id="mail-personnel" class="champ-large"
+							placeholder="xyz@mail.com">
+					</div>
+                    <div class="marg-bas">
+					<label for="nbr-habitants">Nombre de personnes du voyage?<span>*</span></label>
+					<input min="1" value="1" type="number" name="nbr-personnes" id="nbr-personnes" class="champ-etroit"
+						required>
+				    </div>
+					
+				</fieldset>
+
+			<fieldset class="larg-50">
+				<legend>Détails du séjour </legend>
+                <div class="marg-bas">
+						<label for="date-naissance">Date de début</label>
+						<input type="date" name="date-de-debut" id="date-de-debut" class="champ-large">
+				</div>
+
+				<div class="marg-bas">
+					<label for="sel-logement">Type de logement souhaité<span>*</span></label>
+					<select class="champ-large" name="sel-logement" id="sel-logement" required>
+						<option value="">Choisir parmi</option>
+						<option value="mai">Chambre d'hotel</option>
+						<option value="app">Appartement</option>
+						<option value="jum">Collocation</option>
+						<option value="con">Auberge</option>
+					</select>
+				</div>
+                <div class="marg-bas">
+					<label for="nbr-habitants">Nombre de chambres souhaitées<span>*</span></label>
+					<input min="1" value="1" type="number" name="nbr-chambres" id="nbr-chambres" class="champ-etroit">
+				    </div>
+					<div>
+						<input type="radio" name="rdo-location" id="loc-louer une voiture" value="louer une voiture" required>
+						<label for="sat-non">Louer une voiture</label>
+					</div>
+					<div>
+						<input type="radio" name="rdo-satisfaction" id="sat-moyen" value="moyen" required>
+						<label for="sat-moyen">Non</label>
+					</div>
+
+				</fieldset>
+
+			</fieldset>
+
+			
+				<div class="txt-droite marg-bas">
+					<input class="btn" type="submit" value="Soumettre">
+				</div>
+			</div>
+
+
+		</form>
 </main>
 <footer>
     <div class="container-texte">
