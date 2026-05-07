@@ -12,13 +12,7 @@ Il comporte 5 pages:
             <p>Randonner et rouler dans une province élégante, nuancée, lestée d'histoire et baignée d'air.
             <p>20 jours, de 8000$ à 12000$</p>
             </div>
-            <div>
-            <img src="images/img4.jpg" alt="">
-                <!-- SourceImage: https://fr.freepik.com/photos-vecteurs-libre/voyage-canada/4#uuid=d39b88e0-e1c1-4a85-9ed6-573fbb032d2b -->
-            <h3>De Vancouver aux Rocheuses-L'Ouest canadien en train d'exception</h3>
-            <p>Gagner les Rocheuses à bord d'un train panoramique; filer en liberté sur la route des glaciers.</p>
-            <p>10 jours, de 7500$ à 10000$</p>
-            </div>
+            
             <div>
             <img src="images/img-rockies.jpg" alt="">
              <!-- source:https://www.voyageursdumonde.ca/voyage-sur-mesure/recherche-voyage/voyage-canada -->
