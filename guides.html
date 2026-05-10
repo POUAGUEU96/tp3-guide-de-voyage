@@ -1,76 +1,131 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guide</title>
-   <link rel="stylesheet" type="text/css" href="css/normalize.css" media="all">
-    <link rel="stylesheet" href="../tp3-guide-de-voyage/css/style.css" >
-    
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" media="all">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-   <header>
+    <header>
         <div class="conteneur-flex">
-         <div class="logo">
-          <a href="index.html">Godwin<span class="part1">Bryan</span></a> 
-         <p>AGENCE DE VOYAGE</p>
-        </div>
-        <nav class="principale">
-           <ul>
-               <li><a href="index.html">Acceuil</a></li>
-               <li><a href="circuit-touristique.html">Circuit touristique</a></li>
-               <li><a class="actuel" href="guides.html"> guides</a></li>
-               <li><a href="planifier-votre-voyage.html">Planifier votre voyage</a></li>
-               <li><a href="confirmation.html">Confirmation</a></li>
-            </ul>
-        </nav>
-        <div>
-	      <input type="text" name="txt-recherche" id="" placeholder="Recherche">
-	      <input type="submit" value="Chercher">
-        </div>
+            <div class="logo">
+                <a href="index.html">Godwin<span class="part1">Bryan</span></a>
+                <p>AGENCE DE VOYAGE</p>
+            </div>
+            <nav class="principale">
+                <ul>
+                    <li><a href="circuit-touristique.html">Circuit touristique</a></li>
+                    <li><a class="actuel" href="guides.html"> Guides</a></li>
+                    <li><a href="planifier-votre-voyage.html">Planifier votre voyage</a></li>
+                </ul>
+            </nav>
+            <div>
+                <input type="text" name="txt-recherche" id="" placeholder="Recherche">
+                <input type="submit" value="Chercher">
+            </div>
         </div>
     </header>
+    <!-- Bannière  de la page -->
+    <div class="acceuil-guides">
+        <div class="aspect-guide">
 
-    <main>
-        <section class="acceuil">
-            <div class="aspect">
-              
-                <p class="texteCouleur">VOYAGE AU CANADA</p>
-                <p class="textAcceuil"><a href="circuit-touristique/circuit-touristique.html">Toutes nos suggestions de voyage au Canada → </a></p>
-                
-            </div>
-        </section>
-        <nav class="nav-secondaire">
-            <ul class="breadcrumb">
-                <li><a href="index.html">Acceuil</a></li>
-                <li><a href="#guides.html">Guides</a></li>
-                <li>Canada</li>
-            </ul> 
-        </nav> 
-        
-          
-</main>
-<footer>
-    <div class="container-texte">
-        <p>Copyright © 2026 <strong>Therese Pouagueu Mougoue</strong>. Tous droits réservés.</p>
+            <p class="texteCouleur">NOS GUIDES DE VOYAGE CANADA</p>
+        </div>
     </div>
+    <main class="container">
 
-</footer>
+        <section class="guide-voyage">
+            <h2>Carnet pratique Canada</h2>
+            <p>Le Canada occupe une partie importante de l'Amérique du Nord.
+                Voisin des États-Unis par le Sud, le Canada a également une frontière commune avec l'Alaska au
+                nord-ouest, en faisant le second pays le plus vaste du monde (après la Russie), exposé à l'influence
+                climatique tant de l'océan Atlantique que de l'océan Pacifique. Ainsi,
+                il est possible d'observer de grandes différences météorologiques d'un lieu à l'autre du Canada, bien
+                que la majeure partie du Canada connaisse toutefois quatre saisons distinctes. De juin à août, le Canada
+                est en été, avec des températures chaudes et un climat sec, notamment dans le sud du pays,
+                marqué par un climat parfois tropical, avec plus de 30 °C. L'hiver est lui aussi très marqué, de
+                décembre à mars, avec un mercure dans le négatif, bien que certaines côtes atlantiques ou pacifiques
+                profitent d'une certaine douceur. Enfin, le printemps est souvent synonyme, à l'échelle du Canada en
+                général,
+                de saison des pluies, tandis que l'automne voit apparaître les gelées (septembre et octobre), et la
+                neige, à partir de novembre surtout.</p>
+            <!-- source: https://www.voyageursdumonde.ca/voyage-sur-mesure/voyages/guide-voyage/canada/quand-partir -->
+            <ul class="grid-3-col ul-sans-marg">
+                <li class="carte-guide1">
+                    <img src="images/img-guide1.jpg" alt="">
+                    <!-- source:https://www.hunsplash.com/fr/s/photos/image-pacifique-au-Canada -->
+                    <div class="description-carte">
+                        <h3>Godwin guide</h3>
+                        <p>
+                            Godwin guide Canada est un guide touristique reconnu pour ses conseils pratiques et ses
+                            recommandations culturelles.
+                            Il présente les principales villes canadiennes, les sites naturels et les activités à
+                            découvrir.
+                            Ce guide aide les voyageurs à organiser leur séjour grâce à des informations sur
+                            l’hébergement, les transports et la restauration.
+                            Il est apprécié pour son style simple et accessible.
+                            Il convient autant aux touristes qu’aux étudiants en voyage.
+                            <!-- source:https://www.routard.com/guide/code_dest/canada -->
+                        </p>
+                    </div>
+                </li>
+                <li class="carte-guide2">
+                    <img src="images/envie1.ori.jpg" alt="">
+                    <!-- source:https://www.hunsplash.com/fr/s/photos/image-pacifique-au-Canada -->
+                    <div class="description-carte">
+                        <h3>Bonjour Québec</h3>
+                        <p>
+                            Bonjour Québec est le guide touristique officiel de la province du Québec.
+                            Il présente les régions touristiques, les événements culturels et les activités de plein air
+                            disponibles au Québec.
+                            Le site met en avant le patrimoine francophone, la gastronomie et les attractions
+                            naturelles.
+                            Il propose également des idées d’itinéraires et des informations pratiques pour les
+                            visiteurs.
+                            Ce guide est une référence importante pour découvrir le tourisme québécois.
+                            <!-- source:https://www.bonjourquebec.com -->
+                        </p>
+
+                    </div>
+                </li>
+                <li class="carte-guide3">
+                    <img src="images/guige1.jpg" alt="">
+                    <!-- source:https://www.hunsplash.com/fr/s/photos/image-pacifique-au-Canada -->
+                    <div class="description-carte">
+                        <h3>Bienvenue Canada</h3>
+                        <p>
+                            Bienvebue Canada est un guide de voyage international très populaire auprès des voyageurs.
+                            Il offre une présentation détaillée des provinces canadiennes, des attractions touristiques
+                            et des expériences culturelles locales.
+                            Le guide propose aussi des itinéraires et des conseils adaptés à différents budgets. Il met
+                            en valeur la diversité des paysages et des cultures du Canada.
+                            Ce guide est particulièrement utile pour les voyages d’aventure et les longs séjours.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+
+
+
+
+        </section>
+
+
+    </main>
+
+
+    </main>
+    <footer>
+        <div class="container-texte">
+            <p>Copyright © 2026 <strong>Therese Pouagueu Mougoue</strong>. Tous droits réservés.</p>
+        </div>
+
+    </footer>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
