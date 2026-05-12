@@ -92,7 +92,7 @@ p {
 }
 
 .principale a:hover {
-  background: white;
+  /* background: white; */
   color: violet;
 }
 
@@ -283,6 +283,11 @@ p {
   grid-template-rows: 1fr;
 }
 
+.grid-submit{
+  grid-column: span 2;
+   
+}
+
 /* ----------------------------------------- */
 /**** Mise en page Circuit-touristique ****/
 /* ----------------------------------------- */
@@ -355,19 +360,25 @@ p {
 .ul-sans-marg li {
   list-style: none;
   margin-top: 30px;
+  text-align: justify;
 }
 
 .numero {
-  color: #E0A654;
+  color: #d28211;
   font-size: 40px;
 }
 
 .couleur {
   background-color: #B1ADC6;
-  padding: 20px 20px 0px 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   border-radius: 30px;
-  width: 100%;
+  padding-top: 20px;
+ 
 
+}
+.couleur img{
+  width: 100%;
 }
 
 /* ------------------------------- */
@@ -480,15 +491,23 @@ fieldset fieldset legend{
 	margin-bottom: 8px;
 }
 
+.espace{
+  margin-top: 20px;
+}
+
 /**** bouton soumission ****/
 .btn{
-  text-align: center;
-  align-items: center;
+  
+  /* align-items: center;
   display: block;
-  justify-content: center;
+  justify-content: center; */
   margin-top: 20px;
   font-size: 1.5rem;
   background-color: #E0A654;
+}
+
+.txt-center{
+  text-align: center;
 }
 
 section h3{

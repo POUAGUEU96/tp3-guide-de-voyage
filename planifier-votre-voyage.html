@@ -31,13 +31,14 @@
 		</div>
 	</header>
 
+
 	<main class="container formulaire">
 		<section>
-			<h3>Faites créer votre voyage</h3>
-			<p>Faites-nous part de vos envies, 
-			    un conseiller spécialiste vous contactera dans les meilleurs délais.</p>
+			<h3>Créez votre voyage</h3>
+			<p>Faites-nous part de vos envies,
+				un conseiller spécialiste vous contactera dans les meilleurs délais.</p>
 		</section>
-		<form action="confirmation.html" method="post">
+		<form action="confirmation.html" method="get">
 			<div class="grid-2-col-1-rang">
 				<fieldset>
 					<legend>Informations personnelles</legend>
@@ -48,7 +49,7 @@
 					</div>
 					<div class="marg-bas">
 						<label for="prenom">prenom:<span>*</span></label>
-						<input type="text" id="txt-prenom" name="txt-prenom"  class="champ-large" required>
+						<input type="text" id="txt-prenom" name="txt-prenom" class="champ-large" required>
 					</div>
 					<div class="marg-bas">
 						<label for="mail-personnel">Votre courriel</label>
@@ -84,40 +85,34 @@
 						<input min="1" value="1" type="number" name="nbr-chambres" id="nbr-chambres"
 							class="champ-etroit">
 					</div>
-					<div>
+					<fieldset class="larg-50">
 						<legend class="sans-gras">Choisir parmi les guides présentés</legend>
-						<input type="radio" name="rdo-guides" id="guid-choisir guides presentes" value="guid-choisir guides presentes">
-						<label for="guid-presente">Godwin guide</label>
+						<div>
+							<input type="radio" name="rdo-guides" id="guid-choisir guides presentes"
+								value="guid-choisir guides presentes">
+							<label for="guid-presente">Godwin guide</label>
+						</div>
+						<div>
+							<input type="radio" name="rdo-guides" id="guid-choisir guides presentes"
+								value="guid-choisir guides presentes">
+							<label for="sat-moyen">Bonjour Québec</label>
+						</div>
+						<div>
+							<input type="radio" name="rdo-guides" id="guid-choisir guides presentes"
+								value="guid-choisir guides presentes">
+							<label for="sat-moyen">Bienvenue Canada</label>
+						</div>
+					</fieldset>
+					<div class="espace">
+						<input type="checkbox" name="chk-louer-voiture" id="chk-louer-voiture">
+						<label for="chk-louer-voiture">Louer une voiture</label>
 					</div>
-					<div>
-						<input type="radio" name="rdo-guides" id="guid-choisir guides presentes" value="guid-choisir guides presentes">
-						<label for="sat-moyen">Bonjour Québec</label>
-					</div>
-					<div>
-						<input type="radio" name="rdo-guides" id="guid-choisir guides presentes" value="guid-choisir guides presentes">
-						<label for="sat-moyen">Bienvenue Canada</label>
-					</div>
-					<div>
-						<legend class="sans-gras">Louer une voiture</legend>
-						<input type="checkbox" name="ckb-liste" checked>
-						<label for="chk-non">Non</label>
-					</div>
-					<div>
-						<input type="checkbox" name="ckb-liste">
-						<label for="chk-oui">Oui</label>
-					</div>
-
 				</fieldset>
 
-				</fieldset>
-
-
-				<div class="txt-center">
+				<div class="txt-center grid-submit">
 					<input class="btn" type="submit" value="Soumettre">
 				</div>
 			</div>
-
-
 		</form>
 	</main>
 	<footer>
