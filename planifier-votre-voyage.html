@@ -38,10 +38,10 @@
 			<p>Faites-nous part de vos envies,
 				un conseiller spécialiste vous contactera dans les meilleurs délais.</p>
 		</section>
-		<form action="confirmation.html" method="get">
+		<form action="confirmation.html" method="post">
 			<div class="grid-2-col-1-rang">
 				<fieldset>
-					<legend>Informations personnelles</legend>
+					<legend> Informations personnelles </legend>
 
 					<div class="marg-bas">
 						<label for="nom">Nom:<span>*</span></label>
@@ -52,8 +52,8 @@
 						<input type="text" id="txt-prenom" name="txt-prenom" class="champ-large" required>
 					</div>
 					<div class="marg-bas">
-						<label for="mail-personnel">Votre courriel</label>
-						<input type="email" name="mail-personnel" id="mail-personnel" class="champ-large"
+						<label for="mail-personnel">Votre courriel<span>*</span></label>
+						<input type="email" name="mail-personnel" id="mail-personnel" class="champ-large" required
 							placeholder="xyz@mail.com">
 					</div>
 					<div class="marg-bas">
@@ -65,10 +65,10 @@
 				</fieldset>
 
 				<fieldset class="larg-50">
-					<legend>Détails du séjour</legend>
+					<legend> Détails du séjour </legend>
 					<div class="marg-bas">
-						<label for="date-naissance">Date de début</label>
-						<input type="date" name="date-de-debut" id="date-de-debut" class="champ-large">
+						<label for="date-naissance">Date de début<span>*</span></label>
+						<input type="date" name="date-de-debut" id="date-de-debut" class="champ-large" required>
 					</div>
 					<div class="marg-bas">
 						<label for="sel-logement">Type de logement souhaité<span>*</span></label>
@@ -86,11 +86,11 @@
 							class="champ-etroit">
 					</div>
 					<fieldset class="larg-50">
-						<legend class="sans-gras">Choisir parmi les guides présentés</legend>
+						<legend class="sans-gras"> Choisir parmi les guides présentés </legend>
 						<div>
 							<input type="radio" name="rdo-guides" id="guid-choisir guides presentes"
 								value="guid-choisir guides presentes">
-							<label for="guid-presente">Godwin guide</label>
+							<label for="guid-presente">Routard guide</label>
 						</div>
 						<div>
 							<input type="radio" name="rdo-guides" id="guid-choisir guides presentes"
@@ -100,13 +100,25 @@
 						<div>
 							<input type="radio" name="rdo-guides" id="guid-choisir guides presentes"
 								value="guid-choisir guides presentes">
-							<label for="sat-moyen">Bienvenue Canada</label>
+							<label for="sat-moyen">Godwin Canada</label>
 						</div>
 					</fieldset>
-					<div class="espace">
-						<input type="checkbox" name="chk-louer-voiture" id="chk-louer-voiture">
-						<label for="chk-louer-voiture">Louer une voiture</label>
-					</div>
+					<fieldset class="larg-50">
+						<legend class="sans-gras"> Informations complémentaires </legend>
+						<div class="espace">
+							<input type="checkbox" name="chk-louer-voiture" id="chk-louer-voiture">
+							<label for="chk-louer-voiture">Louer une voiture</label>
+						</div>
+						<div class="espace">
+							<input type="checkbox" name="chk-manger-sur-place" id="chk-manger-sur-place">
+							<label for="chk-louer-voiture">Manger sur place</label>
+						</div>
+						<div class="espace">
+							<label for="infos-supp">Informations supplémentaires(optionnel)</label>
+							<textarea name="txt-message"></textarea>
+							<!-- <input type="text" id="txt-infos-supp" name="txt-infos-supp" class="champ-large"> -->
+						</div>
+					</fieldset>
 				</fieldset>
 
 				<div class="txt-center grid-submit">
